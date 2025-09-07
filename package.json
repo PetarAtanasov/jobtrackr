@@ -6,12 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tw:build": "tailwindcss -i ./src/tw.css -o ./src/assets/main.css --min --content ./index.html --content ./src/**/*.vue --content ./src/**/*.js --content ./src/**/*.ts --content ./src/**/*.jsx --content ./src/**/*.tsx",
+    "tw:watch": "tailwindcss -i ./src/tw.css -o ./src/assets/main.css --watch --content ./index.html --content ./src/**/*.vue --content ./src/**/*.js --content ./src/**/*.ts --content ./src/**/*.jsx --content ./src/**/*.tsx"
   },
   "dependencies": {
-    "vue": "^3.5.18"
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.5.0",
+    "vue": "^3.5.18",
+    "vue-i18n": "^11.1.12",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/test-utils": "^2.4.6",
     "autoprefixer": "^10.4.21",
