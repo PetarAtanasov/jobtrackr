@@ -1,5 +1,46 @@
 # Vue 3 + Vite
+JobTrackr — Lightweight Job Application Tracker (Vue 3)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A compact and realistic Vue 3 project you can proudly showcase on GitHub. Clean code, clear features, and a professional structure, perfect for portfolios and job applications.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+✨ Features
+
+Add / edit / delete job applications (company, role, location, salary, source/URL)
+
+Status workflow (Wishlist → Applied → Interview → Offer → Rejected)
+
+Tags and notes for each application
+
+Search, filter, and sort
+
+Persistent data in localStorage (easily switchable to an API later)
+
+Responsive UI with Tailwind CSS
+
+Routing (list, create/edit, stats)
+
+Basic statistics (count by status)
+
+Unit tests (Vitest + Vue Test Utils)
+
+Linting & formatting (ESLint + Prettier)
+
+CI (GitHub Actions) for lint & test
+
+i18n (bg, de, en) for multilingual support
+
+🧱 Tech Stack
+
+Vue 3 (Composition API) + Vite
+
+Vue Router
+
+Pinia (persisted state)
+
+Tailwind CSS
+
+vue-i18n for translations
+
+Vitest, @vue/test-utils
+
+ESLint + Prettier
